@@ -13,11 +13,11 @@ import (
 	_ "github.com/lib/pq"
 )
 
-type User struct {
-	ID    int    `json:"id"`
-	Name  string `json:"name"`
-	Email string `json:"email"`
-}
+// type User struct {
+// 	ID    int    `json:"id"`
+// 	Name  string `json:"name"`
+// 	Email string `json:"email"`
+// }
 
 
 func main() {
